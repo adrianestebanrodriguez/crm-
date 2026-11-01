@@ -1,0 +1,6 @@
+{
+  "name": "GhostBurger CRM & Geolocalización",
+  "description": "Sistema de gestión y geolocalización para cocina oculta de hamburguesas: mapas interactivos, ticket medio, patrones de consumo, promociones personalizadas y registro de pedidos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

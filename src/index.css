@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Leaflet Dark Theme Overrides */
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #18181b !important;
+  border-radius: 14px !important;
+  padding: 6px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+}
+
+.leaflet-container {
+  background-color: #09090b !important;
+  font-family: inherit !important;
+}
+
+.osm-dark-mode-tiles {
+  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.2) !important;
+}
+
+.leaflet-custom-tooltip {
+  background-color: rgba(9, 9, 11, 0.9) !important;
+  border: 1px solid #27272a !important;
+  color: #f4f4f5 !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  padding: 4px 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+.leaflet-custom-tooltip:before {
+  border-top-color: rgba(9, 9, 11, 0.9) !important;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
